@@ -6,6 +6,7 @@ import Properties from "./components/Properties";
 import Estado from "./components/Estado";
 import RenderizadoCondicional from './components/RenderizadoCondicional.js'
 import RenderizadoElementos from './components/RenderizadoElementos'
+import {Eventos, EventosES7} from "./components/Eventos";
 
 function App() {
   return (
@@ -50,6 +51,10 @@ function App() {
           <RenderizadoCondicional />
           <hr />
           <RenderizadoElementos numeros={[1, 2, 3, 4, 5, 6]}/>
+          <hr />
+          <Eventos />
+          <hr />
+          <EventosES7 />
         </section>
       </header>
     </div>
